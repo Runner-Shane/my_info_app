@@ -39,6 +39,64 @@ class MyInfo extends StatelessWidget {
                 ),
               ),
             ),
+            // the code below is used to add our name
+            Padding(
+              padding: EdgeInsets.only(
+                top: 22.0,
+              ),
+              child: Center(
+                child: Container(
+                  height: 35.0,
+                  width: 300.0,
+                  // the code below is for styling our container
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(15.0),
+                  ),
+                  child: Center(
+                    child: Text(
+                      'Runner-Shane',
+                      // styling the above text
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontStyle: FontStyle.italic,
+                        fontSize: 20.0,
+                        color: Colors.black,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+            // the code below is for adding our email address 
+            Padding(
+              padding: EdgeInsets.only(
+                top: 18.0,
+              ),
+              child: Center(
+                child: Container(
+                  height: 35.0,
+                  width: 300.0,
+                  // the code below is for styling our container
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(15.0),
+                  ),
+                  child: Center(
+                    child: Text(
+                      'shaneRunner@email.com',
+                      // styling the above text
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontStyle: FontStyle.italic,
+                        fontSize: 20.0,
+                        color: Colors.black,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ),
           ],
         ),
       ),
