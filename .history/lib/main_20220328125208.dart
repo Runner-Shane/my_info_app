@@ -20,7 +20,7 @@ class MyInfo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // the property below is used to add the background color to our scaffold
+      // the proprty below is used to add the background color to our scaffold
       // widget
       backgroundColor: Colors.blueAccent[400],
       // the code below is used to add the body to the scaffold widget
